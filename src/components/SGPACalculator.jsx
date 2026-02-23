@@ -55,6 +55,8 @@ const SGPACalculator = () => {
                             <span className="row-label">Subject Name</span>
                             <input
                                 type="text"
+                                id={`sub-name-${sub.id}`}
+                                name={`sub-name-${sub.id}`}
                                 placeholder="e.g. Mathematics"
                                 value={sub.name}
                                 onChange={(e) => updateSubject(sub.id, 'name', e.target.value)}
@@ -64,6 +66,8 @@ const SGPACalculator = () => {
                             <span className="row-label">Credits</span>
                             <input
                                 type="number"
+                                id={`sub-credits-${sub.id}`}
+                                name={`sub-credits-${sub.id}`}
                                 placeholder="0"
                                 value={sub.credits}
                                 min="0"
@@ -74,6 +78,8 @@ const SGPACalculator = () => {
                             <span className="row-label">Grade Points</span>
                             <input
                                 type="number"
+                                id={`sub-points-${sub.id}`}
+                                name={`sub-points-${sub.id}`}
                                 placeholder="0.0"
                                 value={sub.gradePoints}
                                 min="0"

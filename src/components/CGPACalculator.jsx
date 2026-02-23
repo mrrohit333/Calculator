@@ -54,6 +54,8 @@ const CGPACalculator = () => {
                             <span className="row-label">Semester Number</span>
                             <input
                                 type="text"
+                                id={`sem-num-${sem.id}`}
+                                name={`sem-num-${sem.id}`}
                                 value={sem.num}
                                 onChange={(e) => updateSemester(sem.id, 'num', e.target.value)}
                             />
@@ -62,6 +64,8 @@ const CGPACalculator = () => {
                             <span className="row-label">SGPA</span>
                             <input
                                 type="number"
+                                id={`sem-sgpa-${sem.id}`}
+                                name={`sem-sgpa-${sem.id}`}
                                 placeholder="0.00"
                                 value={sem.sgpa}
                                 min="0"
@@ -74,6 +78,8 @@ const CGPACalculator = () => {
                             <span className="row-label">Total Credits</span>
                             <input
                                 type="number"
+                                id={`sem-credits-${sem.id}`}
+                                name={`sem-credits-${sem.id}`}
                                 placeholder="0"
                                 value={sem.credits}
                                 min="0"
