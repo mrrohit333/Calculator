@@ -46,10 +46,6 @@ const SGPACalculator = () => {
         <div className="glass-card">
             <div className="calc-header">
                 <h2>SGPA Calculator</h2>
-                <button className="btn-primary" onClick={addSubject}>
-                    <Plus size={20} style={{ marginRight: '8px' }} />
-                    Add Subject
-                </button>
             </div>
 
             <div className="subjects-list">
@@ -97,6 +93,11 @@ const SGPACalculator = () => {
                     </div>
                 ))}
             </div>
+
+            <button className="btn-primary" onClick={addSubject} style={{ marginBottom: '1.5rem' }}>
+                <Plus size={20} style={{ marginRight: '8px' }} />
+                Add Subject
+            </button>
 
             <div className="calc-footer">
                 <div className="total-info">

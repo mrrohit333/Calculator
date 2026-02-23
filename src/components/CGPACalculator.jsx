@@ -45,10 +45,6 @@ const CGPACalculator = () => {
         <div className="glass-card">
             <div className="calc-header">
                 <h2>CGPA Calculator</h2>
-                <button className="btn-primary" onClick={addSemester}>
-                    <Plus size={20} style={{ marginRight: '8px' }} />
-                    Add Semester
-                </button>
             </div>
 
             <div className="semesters-list">
@@ -95,6 +91,11 @@ const CGPACalculator = () => {
                     </div>
                 ))}
             </div>
+
+            <button className="btn-primary" onClick={addSemester} style={{ marginBottom: '1.5rem' }}>
+                <Plus size={20} style={{ marginRight: '8px' }} />
+                Add Semester
+            </button>
 
             <div className="calc-footer">
                 <div className="total-info">
