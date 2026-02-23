@@ -17,8 +17,8 @@ function App() {
     return (
         <div className="app-container">
             <header className="app-header">
-                <h1 className="title-gradient">GradeMaster</h1>
-                <p className="subtitle">CGPA & SGPA Calculator</p>
+                <h1 className="title-gradient">SGPA & CGPA Calculator</h1>
+                <p className="subtitle">Free Online GPA Calculator with Credit System</p>
             </header>
 
             <div className="controls-row">
@@ -59,10 +59,48 @@ function App() {
                 )}
             </main>
 
+            <section className="seo-content glass-card">
+                <div className="seo-grid">
+                    <div className="seo-item">
+                        <h3>What is SGPA?</h3>
+                        <p>
+                            SGPA, or Semester Grade Point Average, is a fundamental metric used in educational institutions to evaluate a student's academic performance within a single semester. It represents the weighted average of the grade points earned in all courses during that particular term. Calculating SGPA is crucial for engineering students and those on a 10-point scale system, as it provides a clear snapshot of their focus and achievement in individual semesters. By using a specialized <strong>sgpa calculator for engineering students</strong>, scholars can easily track their progress and identify areas for improvement. Higher SGPA values indicate better academic standing and are often prerequisites for scholarships or advanced internship opportunities.
+                        </p>
+                    </div>
+
+                    <div className="seo-item">
+                        <h3>What is CGPA?</h3>
+                        <p>
+                            CGPA stands for Cumulative Grade Point Average and offers a comprehensive view of a student's entire academic journey. Unlike SGPA, which focuses on a single term, CGPA aggregates the grade points from all completed semesters. This metric is the primary standard used by employers and higher education admissions worldwide. Using a <strong>cgpa calculator 10 point scale</strong> helps students understand their overall standing across multiple years of study. It is a vital indicator of consistency and long-term academic excellence. Converting <strong>sgpa to cgpa conversion</strong> is a common requirement for graduation and career planning, making a reliable <strong>semester grade calculator</strong> an essential tool for every modern student.
+                        </p>
+                    </div>
+
+                    <div className="seo-item">
+                        <h3>How to Calculate SGPA?</h3>
+                        <div className="formula-box">
+                            <p><strong>Formula:</strong> SGPA = Σ(Credits × Grade Points) / Σ(Total Credits)</p>
+                            <p>
+                                To calculate your SGPA, multiply the credits of each subject by the grade points earned in that subject. Sum these products up and divide by the total number of credits attempted in that semester.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="seo-item">
+                        <h3>How to Calculate CGPA?</h3>
+                        <div className="formula-box">
+                            <p><strong>Formula:</strong> CGPA = Σ(Semester Credits × SGPA) / Σ(Total Accumulated Credits)</p>
+                            <p>
+                                CGPA is determined by taking the weighted average of all your SGPAs. Multiply each semester's SGPA by its total credits, sum them up, and divide by the total credits earned across all semesters.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <footer className="app-footer">
                 <p><b>Version 1.0</b>
-                <br></br>A Product of <b style={{ color: 'blue' }}>MrProducts Pvt Ltd</b>
-            <br></br>Contact: <a href="mailto:mrproducts.pvtltd@gmail.com" style={{ color: 'var(--primary)', textDecoration: 'none' }}>mrproducts.pvtltd@gmail.com</a></p>
+                    <br></br>A Product of <b style={{ color: 'blue' }}>MrProducts Pvt Ltd</b>
+                    <br></br>Contact: <a href="mailto:mrproducts.pvtltd@gmail.com" style={{ color: 'var(--primary)', textDecoration: 'none' }}>mrproducts.pvtltd@gmail.com</a></p>
             </footer>
         </div>
     )
