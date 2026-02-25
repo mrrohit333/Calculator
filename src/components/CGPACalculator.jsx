@@ -91,6 +91,7 @@ const CGPACalculator = () => {
                             onClick={() => removeSemester(sem.id)}
                             disabled={semesters.length === 1}
                             style={{ marginTop: '22px' }}
+                            aria-label="Delete semester"
                         >
                             <Trash2 size={18} />
                         </button>

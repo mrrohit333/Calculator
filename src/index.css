@@ -1,6 +1,6 @@
 :root {
-    --primary: #6366f1;
-    --primary-hover: #4f46e5;
+    --primary: #4f46e5;
+    --primary-hover: #4338ca;
     --bg-dark: #0f172a;
     --bg-card: rgba(30, 41, 59, 0.7);
     --text-main: #f8fafc;
@@ -166,8 +166,8 @@ input:focus {
 
 .tab-btn.active {
     background: var(--primary);
-    color: white;
-    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(79, 70, 229, 0.4);
 }
 
 .action-btns {

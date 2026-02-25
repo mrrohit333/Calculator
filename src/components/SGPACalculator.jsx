@@ -93,6 +93,7 @@ const SGPACalculator = () => {
                             onClick={() => removeSubject(sub.id)}
                             disabled={subjects.length === 1}
                             style={{ marginTop: '22px' }}
+                            aria-label="Delete subject"
                         >
                             <Trash2 size={18} />
                         </button>
